@@ -1,0 +1,14 @@
+{
+	"name": "Ruby",
+    "build": {
+		"dockerfile": "Dockerfile"
+	},
+	"postCreateCommand": "bundle install",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Shopify.ruby-lsp"
+			]
+		}
+	}
+}
